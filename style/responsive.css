@@ -1,0 +1,29 @@
+@media screen and (max-width:780px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .espaco{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    header .logo{
+        font-size: 20px;
+        
+    }
+   
+}
+
+@media screen and (max-width:780x){
+    
+
+  
+}
+
+@media screen and (min-width:560px){
+    .descricao{
+        width: 50%;
+    }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--Aceita caracteres acentuados-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--Owl links-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <div class="espaco">
+                <nav>
+                    <a href="" class="href">Início</a>
+                    <a href="" class="href">Séries</a>
+                    <a href="" class="href">Filmes</a>
+                    <a href="" class="href">Documentários</a>
+                </nav>
+                
+                <div class='barra-nav-right'>
+                    <i class="fas fa-search"></i>
+                    <p id="infantil">Infantil</p>
+                    <i class="fas fa-bell"></i>
+                    <img id="avatar" src="/img/avatar.PNG">
+                    <i id="seta-nav" class="fas fa-caret-down"></i>
+                </div>
+            </div> 
+            
+                     
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">MAID</h3>
+                <p class="descricao">Após sair de um relacionamento abusivo, uma jovem mãe começa a trabalhar fazendo
+                faxina para sustentar a filha e construir um futuro melhor para elas.</p>
+                <!--Não é filha direta de filme-principal
+                'container' é filha direta de filme-principal
+                'botões é uma div nova depois da filha direta. por padrão 
+                o display é block '-->   
+                <div class="botoes">
+                    <!--Diz qual a função do botão  --> 
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                    <button id="maisInformacoes" role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais Informações
+                    </button>
+                </div>
+            
+            </div>  
+                 
+        </div>
+    </main>
+
+    <div class="tituloSeção">
+        <h3 class="container"> Em alta </h3>
+        <i class="fas fa-angle-right"></i>
+    </div>
+
+    <div class="carrossel-filmes">
+        
+       
+
+        <div id="carrosel" class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="tituloSeção">
+        <h3 class="container"> Lançamentos </h3>
+        <i class="fas fa-angle-right"></i>
+    </div>
+
+    <div class="carrossel-filmes">
+        
+       
+
+        <div id="carrosel" class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel/mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8a321700c1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
